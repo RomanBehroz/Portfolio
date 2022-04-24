@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Behroz | Personal Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600;700&family=Poppins:wght@100;300;500&family=Raleway:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<script src="https://kit.fontawesome.com/40863868de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <!-- NAVBAR -->
+        
+            <div class="navbar" id="navBar">
+               
+                    <div class="nav-grid container">
+                    <div class="logo"> <a href="/index.html"> Roman Behroz </a></div>
+                    <div class="right">
+                        <div class="nav-links" id="navLinks">
+                            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a class="" href="#">home</a></li>
+                                <li><a class="" href="">portfolio</a></li>
+                                <li><a href="">about</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                    </div>
+                </div>
+            </div>
+   
+              
+         
+            
+        
+    </div>
+
+
+    <!--MAIN-->
+    <div class="main-container">
+      
+    <div class="title-m page-title my-2">home</div>
+    <div class="card-transparent">
+
+        <div  class="main-right"><img src="/img/me.JPG" alt=""></div>
+
+        <div class="main-left">
+            <div  class="title-oldstyle">
+                hi, i'm roman behroz.<br>
+                i'm a software engineering student.
+                </div>
+                <div class="my-3"></div>
+                <div  class="title-m">welcome to my personal webpage, feel free to explore!</div>
+                <div  class="btn my-2">read more</div>
+        </div>
+        
+       
+    </div>
+
+  <div class="space"> </div>
+  <div class="space"> </div>
+    <div class="title-m page-title my-3 text-center">recent projects</div>
+    <div class="space"></div>
+    <section class="project">
+      
+        <div class="row">
+            <div class="project-col">
+                <img src="/img/p1.jpg" alt="">
+                <div class="layer">
+                    <h3>TO DO APP</h3>
+                </div>
+            </div>
+
+            <div class="project-col">
+                <img src="/img/p2.jpg" alt="">
+                <div class="layer">
+                    <h3>MINIMALIST WEB DESIGN</h3>
+                    
+                </div>
+                
+            </div>
+
+                  <div class="project-col">
+                <img src="/img/p3.jpg" alt="">
+                <div class="layer">
+                    <h3>MANAGEMENT SYSTEM</h3>
+                </div>
+            </div>
+
+            
+          
+        </div>
+
+
+    </section>
+    <div class="space"></div>
+
+    </div>
+
+   
+
+    <!--RECENT PROJECTS-->
+
+
+    <!--FOOTER-->
+    <div class="footer">
+   
+        <div class="footer-grid container">
+            <div id="a" class="footer-a">
+            
+                <div class="footer-contact">
+
+                    <p><i class="fa-solid fa-at"></i> roman.behroz@student.htw-berlin.de</p>
+                    <p><i class="fa-solid fa-phone"></i> +49 152 000 111 22</p>
+
+                </div>
+              wwww.romanyou.com copyright © 2022 all rights reserved.
+
+
+            </div>
+            
+            <div id="b" class="footer-b">
+                
+               <div class="footer-menu">
+                   <ul>
+                    <li><a class="active-footer" href="#">home</a></li>
+                    <li><a class="" href="">portfolio</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="footer-c">
+                <div class="social-media">
+                    <div class="icon">
+                      <a href="">  <i class="fa-brands fa-instagram-square fa-2x"></i></a></div>
+                    <div class="icon"> <a href=""> <i class="fa-brands fa-facebook-square fa-2x"></i></div>
+                    <div class="icon"> <a href=""> <i class="fa-brands fa-linkedin fa-2x"></i> </a></div>
+                    <div class="icon"> <a href=""><i class="fa-brands fa-github-square fa-2x"></i> </div>
+                </div>
+               
+            </div>
+        </div>
+   
+    </div>
+    
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        var navBar = document.getElementById("navBar");
+
+        function showMenu(){
+       
+         navLinks.style.top = "0";
+      
+         
+          
+        }
+
+        function hideMenu(){
+       
+          navLinks.style.top = "-110vh";
+        
+         
+        }
+
+    </script>
+
+</body>
+</html>
